@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
-  </head>
-  <body>
-    <h1>Welcome!</h1>
-    <h2>Go to /users to see the list of user information!</h2>
-    <h2>G0 to /form to fill the form</h2>
-  </body>
-</html>
+<!-- prettier-ignore -->
+{% extends 'base.html' %} 
+{% block title %}Posts{% endblock %}
+{% block content %}
+<div
+  class="bg-image"
+  style="
+    background-image: url('https://cdn.pixabay.com/photo/2015/05/28/09/08/hyacinth-787758_1280.jpg');
+    height: 100vh;
+  "
+></div>
+{% endblock %}
